@@ -28,9 +28,9 @@ app.use('/products', productRoutes)
 app.use("/users", userRoutes); // http://localhost:8000/users
 app.use("/expenses", expenseRoutes); // http://localhost:8000/expenses
 
-app.use('/', (req, res) => {
-    res.send('Welcome to the server');
-});
+// app.use('/', (req, res) => {
+//     res.send('Welcome to the server');
+// });
 
 // SERVER
 const PORT = Number(process.env.PORT) || 3001;
