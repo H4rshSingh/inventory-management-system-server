@@ -1,0 +1,25 @@
+npm init -y 
+
+npm i prisma @prisma/client
+
+npx prisma init
+
+npm install typescript
+
+npx tsc --int  
+
+npm i -D ts-node typescript @types/node
+
+npx prisma generate
+
+npx prisma migrate dev --name init
+
+npm run seed
+
+// Server
+
+npm i express body-parser cors dotenv helmet morgan concurrently
+
+npm i -D nodemon @types/cors @types/express @types/morgan
+
+npm i rimraf
